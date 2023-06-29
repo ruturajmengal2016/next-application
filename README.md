@@ -1,10 +1,6 @@
-
 # Next Application
 
-
-
 # Hi, I'm Ruturaj! 👋
-
 
 ## Run Locally
 
@@ -31,4 +27,3 @@ Start the server
 ```bash
   npm run dev
 ```
-

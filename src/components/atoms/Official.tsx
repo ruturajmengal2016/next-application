@@ -8,7 +8,7 @@ const Official: React.FunctionComponent = () => {
     <div className={styles.frameWrapper11}>
       <div className={styles.frameParent5}>
         <div className={styles.officiaUtParent}>
-          <div className={styles.officiaUt}>Officia ut</div>
+          <div className={styles.officiaUt}>Official utilites</div>
           <div className={styles.ipsumLorem9}>Ipsum Lorem</div>
         </div>
         <Box

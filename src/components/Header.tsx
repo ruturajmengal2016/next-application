@@ -4,7 +4,12 @@ import styles from "../app/page.module.css";
 import { Box, IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-interface IHeaderProps {}
+interface IHeaderProps {
+  handleOpen: () => void;
+  menu: boolean;
+  index: number;
+  handleMenu: (value: number) => void;
+}
 
 export const menus: string[] = ["Home", "About", "Contact", "Login"];
 export const links: string[][] = [
@@ -14,16 +19,12 @@ export const links: string[][] = [
   ["LoginLink", "LoginLink", "LoginLink", "LoginLink", "LoginLink"],
 ];
 
-const Header: React.FunctionComponent<IHeaderProps> = () => {
-  const [menu, setMenu] = React.useState<boolean>(true);
-  const [index, setIndex] = React.useState<number>(0);
-
-  const handleMenu = (index: number) => {
-    setIndex(index);
-  };
-  const handleOpen = () => {
-    setMenu(!menu);
-  };
+const Header: React.FunctionComponent<IHeaderProps> = ({
+  handleOpen,
+  menu,
+  handleMenu,
+  index,
+}) => {
   return (
     <Box className={styles.navi}>
       <Box

@@ -5,15 +5,9 @@ import { Box } from "@mui/material";
 interface IBottomProps {}
 
 const Bottom: React.FunctionComponent<IBottomProps> = (props) => {
-  const arr: string[] = [
-    "Ipsum Lorem",
-    "Ipsum Lorem",
-    "Ipsum Lorem",
-    "Ipsum Lorem",
-    "Ipsum Lorem",
-  ];
+  const arr: string[] = ["Angular", "React", "Vue", "Laravel"];
   return (
-    <div className={styles.frameParent8}>
+    <div className={styles.frameParent8} style={{ padding: "0.5rem 0rem" }}>
       <Box
         className={styles.frameParent9}
         sx={{
@@ -27,7 +21,7 @@ const Bottom: React.FunctionComponent<IBottomProps> = (props) => {
         }}
       >
         <div className={styles.rectangleGroup}>
-          <div className={styles.illumMagnamAliquam}>Illum magnam aliquam</div>
+          <div className={styles.illumMagnamAliquam}>PRODUCTS</div>
           <div className={styles.frameParent10}>
             <div className={styles.ipsumLoremParent}>
               {arr.map((ele, ind) => {
@@ -50,7 +44,7 @@ const Bottom: React.FunctionComponent<IBottomProps> = (props) => {
           </div>
         </div>
         <div className={styles.rectangleGroup}>
-          <div className={styles.illumMagnamAliquam}>Quia so minima</div>
+          <div className={styles.illumMagnamAliquam}>USEFUL LINKS</div>
           <div className={styles.frameParent10}>
             <div className={styles.ipsumLoremParent}>
               {arr.map((ele, ind) => {
@@ -73,18 +67,14 @@ const Bottom: React.FunctionComponent<IBottomProps> = (props) => {
           </div>
         </div>
         <div className={styles.quiaSoMinimaGroup}>
-          <div className={styles.illumMagnamAliquam}>Quia so minima</div>
+          <div className={styles.illumMagnamAliquam}>SOCIAL</div>
           <div className={styles.frameParent12}>
             <div className={styles.buttonContentSaferegularParent}>
               {arr.map((ele, ind) => {
                 return (
                   <div className={styles.iconcontextuallinkGroup} key={ind}>
-                    <img
-                      className={styles.iconcontextualshop}
-                      alt=""
-                      src=""
-                    />
-                    <b className={styles.ipsum}>Lorem</b>
+                    <img className={styles.iconcontextualshop} alt="" src="" />
+                    <b className={styles.ipsum}>{ele}</b>
                   </div>
                 );
               })}

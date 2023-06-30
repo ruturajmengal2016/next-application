@@ -38,11 +38,11 @@ Start the server
 Desktop View
 ![Screenshot 2023-06-30 103309](https://github.com/ruturajmengal2016/next-application/assets/114099113/0d245ef2-b240-42ae-bf0c-6138cd4a8df9)
 
-##Mobile view
+Mobile view
 ![Screenshot 2023-06-30 103322](https://github.com/ruturajmengal2016/next-application/assets/114099113/b43fc6cf-fe88-47d0-9355-b6a7597f1caa)
 
 
-##Tablet View
+Tablet View
 ![Screenshot 2023-06-30 103340](https://github.com/ruturajmengal2016/next-application/assets/114099113/4fd15516-a91b-46d8-93d9-46a3c22aa119)
 
 
